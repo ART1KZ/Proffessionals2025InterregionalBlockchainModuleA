@@ -3,11 +3,14 @@ abi/
 bin/
 artifacts/
 
+remixd.log
+
 node_modules/
+npm-debug.log
+package-lock.json
+
 coverage/
 test/
-
-remixd.log
 
 .vscode/
 .idea/
@@ -17,3 +20,11 @@ Thumbs.db
 .env
 
 deployments/
+
+.pnpm-debug.log
+pnpm-lock.yaml
+yarn-debug.log
+yarn-error.log
+yarn.lock
+
+test-coverage/
