@@ -12,4 +12,8 @@ contract WrapToken is ERC20 {
     function decimals() public pure override returns(uint8) {
         return 12;
     }
+
+    function price() public pure returns(uint256) {
+        return 1 ether;
+    }
 }
