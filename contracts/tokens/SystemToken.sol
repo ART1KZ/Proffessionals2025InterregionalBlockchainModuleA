@@ -2,17 +2,14 @@
 
 pragma solidity 0.8.29;
 
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "../ERC20Bundle.sol";
 
 contract SystemToken is ERC20 {
     constructor() ERC20("Professional", "PROFI") {
         _mint(msg.sender, 100000);
     }
 
-    function decimals() public pure override returns(uint8) {
+    function decimals() public pure override returns (uint8) {
         return 12;
     }
 }
-
-
-
